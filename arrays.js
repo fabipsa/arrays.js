@@ -6,6 +6,8 @@ function procesarPedido(pedido) {
     pedido.unshift("bebida"); // Añade "bebida" al inicio del array
     pedido.push(cliente); // Añade el nombre del cliente al final
     return pedido; // Retorna el array modificado
+    console.log ("pedido terminado")
+    procesarPedido(123)
 }
 
 // 2. Iteración de Arrays en Javascript
@@ -19,6 +21,8 @@ function sumarPares(numeros) {
         }
     }
     return suma;
+    console.log ("pedido terminado")
+    procesarPedido(123)     
 }
 
 // 3. Filtrado de Arrays
@@ -26,6 +30,8 @@ function sumarPares(numeros) {
 // Debes devolver un nuevo array con todos los números que sean mayores que el umbral.
 function filtrarMayores(numeros, umbral) {
     return numeros.filter(numero => numero > umbral); // Filtra y devuelve los números mayores que el umbral
+    console.log ("pedido terminado")
+    procesarPedido(123)
 }
 
 // 4. Transformación de Arrays
@@ -33,6 +39,8 @@ function filtrarMayores(numeros, umbral) {
 // Debes devolver un nuevo array donde cada valor del array original se duplique.
 function duplicarValores(numeros) {
     return numeros.map(numero => numero * 2); // Duplica cada valor y lo retorna en un nuevo array
+    console.log ("pedido terminado")
+    procesarPedido(123)
 }
 
 // 5. Reducción de Arrays
@@ -40,6 +48,8 @@ function duplicarValores(numeros) {
 // Debes devolver el producto de todos los números del array.
 function multiplicarValores(numeros) {
     return numeros.reduce((producto, numero) => producto * numero, 1); // Multiplica todos los valores
+    console.log ("pedido terminado")
+    procesarPedido(123)
 }
 
 // 6. Ordenación de Arrays
@@ -47,12 +57,16 @@ function multiplicarValores(numeros) {
 // Debes devolver el array ordenado de menor a mayor.
 function ordenarArray(numeros) {
     return numeros.sort((a, b) => a - b); // Ordena el array de menor a mayor
+    console.log ("pedido terminado")
+    procesarPedido(123)
 }
 
 // 7. Combinación de Arrays
 // 7.1 Crea una función llamada `combinarArrays` que reciba dos arrays y devuelva un nuevo array que contenga los elementos de ambos arrays.
 function combinarArrays(array1, array2) {
     return [...array1, ...array2]; // Combina ambos arrays en uno nuevo
+    console.log ("pedido terminado")
+    procesarPedido(123)
 }
 
 // Exportar las funciones
