@@ -16,8 +16,7 @@
 // 2. Iteración de Arrays en Javascript
 // 2.1 Crea una función llamada `sumarPares` que reciba un array de números.
 // Debes iterar sobre el array, sumar todos los números pares y devolver la suma.
-function sumarPares(numeros) {
-    let suma = 0
+function sumarPares(numeros) {  
     let suma = 0;
     
     // Itera sobre el array
