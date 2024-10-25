@@ -11,7 +11,7 @@
         // Añade el nombre del cliente al final
         pedido.push(nombreCliente);
     }
-}
+
 
 // 2. Iteración de Arrays en Javascript
 // 2.1 Crea una función llamada `sumarPares` que reciba un array de números.
@@ -83,7 +83,7 @@ function findJavaScript(matrix) {
     // Si no se encuentra, devuelve [-1, -1]
     return [-1, -1];
 }
-}
+
 
 const matrix = [
     ['HTML', 'CSS', 'JavaScript'],
@@ -100,7 +100,6 @@ const matrix = [
 function findMinMaxPages(books) {
     // Inicializa los índices y los valores mínimo y máximo
     let minIndex = 0;
-    let maxIndex = 0;
 
     // Itera sobre el array para encontrar los índices
     for (let i = 1; i < books.length; i++) {
