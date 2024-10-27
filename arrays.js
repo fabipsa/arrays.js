@@ -100,6 +100,7 @@ const matrix = [
 function findMinMaxPages(books) {
     // Inicializa los índices y los valores mínimo y máximo
     let minIndex = 0;
+    let maxIndex = 0;
 
     // Itera sobre el array para encontrar los índices
     for (let i = 1; i < books.length; i++) {
